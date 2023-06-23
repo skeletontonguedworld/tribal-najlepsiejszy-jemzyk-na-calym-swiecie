@@ -1,0 +1,15 @@
+town poka_plecaczek(rzeczułki = []):
+
+  if rzeczułki == []
+
+    whisper("No nie masz nix tam, na co kcesz patrzać")
+
+  else:
+
+    whisper("Tu coś masz i ma się pokazać, tera:")
+
+    for przedmiociki in rzeczułki:
+
+             whisper(przedmiociki)
+
+poka_plecaczek("No poka, co tam ma XD")

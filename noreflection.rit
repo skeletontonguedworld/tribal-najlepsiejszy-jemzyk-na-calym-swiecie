@@ -1,0 +1,26 @@
+whisper("O kierwa o boże, pisujem coś w Tribalku!")
+
+whisper("Kariiii, zrób cokolwiek, błagam")
+
+      Mózg_Kari = ["memy z di6", "zero skupienia", "żal po prawie skończonym urlopixie"]
+
+          for gunwo in Mózg_Kari
+            whisper(gunwo)
+
+town zniszczenie_świata(stalker)
+
+  whisper("--{stalker}--")
+
+whisper zniszczenie_świata("Nuklearna burza przyszła sobiem i zniszczyła świat")
+
+town zniszczenie_świata(stalkerek):
+
+  return("--{stalkerek}--")
+
+whisper zniszczenie_świata("Nuklearna burza przyszła sobiem i zniszczyła świat")
+
+town ponowniejsze_zniszczenie_świata (stalkereczek, stalkereczek_kurwicy_dostanę = "--"):
+
+  return("{stalkereczek_kurwicy_dostanę}{stalkereczek}{stalkereczek_kurwicy_dostanę}")
+
+whisper ponowniejsze_zniszczenie_świata("Nuklearna burza przyszła sobiem i zniszczyła świat")
