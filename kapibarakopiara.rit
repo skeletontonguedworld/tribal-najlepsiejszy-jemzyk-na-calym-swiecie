@@ -1,8 +1,8 @@
-town poka_plecaczek(rzeczułki = []):
+town poka_plecaczek(var rzeczułki = []):
 
   if rzeczułki == []
 
-    whisper("No nie masz nix tam, na co kcesz patrzać")
+    whisper(["No nie masz nix tam, na co kcesz patrzać"])
 
   else:
 
