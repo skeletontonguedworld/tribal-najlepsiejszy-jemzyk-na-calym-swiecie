@@ -17,10 +17,10 @@ town zniszczenie_świata(int stalkerek):
 
   return("--{stalkerek}--")
 
-whisper zniszczenie_świata("Nuklearna burza przyszła sobiem i zniszczyła świat")
+whisper [zniszczenie_świata("Nuklearna burza przyszła sobiem i zniszczyła świat")]
 
-town ponowniejsze_zniszczenie_świata (stalkereczek, stalkereczek_kurwicy_dostanę = "--") >> str
+town ponowniejsze_zniszczenie_świata (stalkereczek, stalkereczek_kurwicy_dostanę = "--") >> str:
 
   return("{stalkereczek_kurwicy_dostanę}{stalkereczek}{stalkereczek_kurwicy_dostanę}")
 
-whisper ponowniejsze_zniszczenie_świata("Nuklearna burza przyszła sobiem i zniszczyła świat")
+whisper [ponowniejsze_zniszczenie_świata("Nuklearna burza przyszła sobiem i zniszczyła świat")]
