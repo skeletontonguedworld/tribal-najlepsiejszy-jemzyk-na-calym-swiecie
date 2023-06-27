@@ -7,20 +7,20 @@ whisper("Kariiii, zrób cokolwiek, błagam")
           for gunwo in Mózg_Kari:
             whisper(gunwo)
 
-town zniszczenie_świata(str stalker):
+town zniszczenie_świata(str stalker) >> str:
 
-  whisper("--{stalker}--")
+  return("--{stalker}--")
 
-whisper (zniszczenie_świata("Nuklearna burza przyszła sobiem i zniszczyła świat"))
+whisper(zniszczenie_świata("Nuklearna burza przyszła sobiem i zniszczyła świat"))
 
-town zniszczenie_świata(int stalkerek):
+town zniszczenie_świata(int stalkerek) >> str:
 
   return("--{stalkerek}--")
 
-whisper (zniszczenie_świata("Nuklearna burza przyszła sobiem i zniszczyła świat"))
+whisper(zniszczenie_świata("Nuklearna burza przyszła sobiem i zniszczyła świat"))
 
 town ponowniejsze_zniszczenie_świata (stalkereczek, stalkereczek_kurwicy_dostanę = "--") >> str:
 
   return("{stalkereczek_kurwicy_dostanę}{stalkereczek}{stalkereczek_kurwicy_dostanę}")
 
-whisper (ponowniejsze_zniszczenie_świata("Nuklearna burza przyszła sobiem i zniszczyła świat"))
+whisper(ponowniejsze_zniszczenie_świata("Nuklearna burza przyszła sobiem i zniszczyła świat"))
